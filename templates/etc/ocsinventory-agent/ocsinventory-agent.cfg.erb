@@ -1,0 +1,13 @@
+basevardir=<%= @basevardir %>
+<%- if @debug -%>
+debug=1
+<%- end -%>
+<%- if @ssl -%>
+ssl=1
+<%- end -%>
+<%- if @ocs_tag -%>
+tag=<%= @ocs_tag %> 
+<%- end -%>
+server=<%= @server %>
+ca=<%= @ca_path %>
+logfile=<%= @logfile %>
