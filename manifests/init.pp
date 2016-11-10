@@ -1,6 +1,7 @@
 # == Class: samanage
 #
 class samanage (
+  Tea::Absolutepath $conf_dir    = $::samanage::params::conf_dir,
   Tea::Absolutepath $conf_file   = $::samanage::params::conf_file,
   Tea::Absolutepath $module_file = $::samanage::params::module_file,
   Tea::Absolutepath $basevardir  = $::samanage::params::basevardir,

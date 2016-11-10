@@ -1,0 +1,35 @@
+{
+  "name": "icann-samanage",
+  "version": "0.1.0",
+  "author": "john.bond@icann.org",
+  "summary": "small modules to install ocsinventory to submit details to samanage",
+  "license": "MPL-2.0",
+  "source": "https://github.com/icann-dns/puppet-samanage",
+  "project_page": "https://github.com/icann-dns/puppet-samanage",
+  "issues_url": "https://github.com/icann-dns/puppet-samanage/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 4.12.0"
+    },
+    {
+      "name": "icann-tea",
+      "version_requirement": ">= 0.2.5"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.0.4",
+        "14.04"
+      ]
+    },
+    {
+      "operatingsystem": "FreeBSD",
+      "operatingsystemrelease": [
+        "10"
+      ]
+    }
+  ]
+}
